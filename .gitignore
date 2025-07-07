@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Temp files
+*.tmp
+*.log
+
+# Environment
+.env
+venv/
+.env.*
+
+# macOS
+.DS_Store
+
+# Uploaded or temp images
+static/tmp*.png
+
+# VSCode or JetBrains IDE
+.vscode/
+.idea/
