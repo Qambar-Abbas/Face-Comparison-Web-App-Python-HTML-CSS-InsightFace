@@ -29,8 +29,6 @@ face-compare-app/
     └── preview.png       # Interface screenshot
 ```
 
-![Structure Preview](static/preview.png)
-
 ---
 
 ## ✅ Requirements
