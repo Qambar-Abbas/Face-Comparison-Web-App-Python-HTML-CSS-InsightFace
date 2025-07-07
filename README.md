@@ -1,4 +1,5 @@
-# 🔍 Face Comparison Web App  (Python, HTML, CSS, InsightFace, Antelopev2)
+# 🔍 Face Comparison Web App  
+(Python, HTML, CSS, InsightFace, Antelopev2)
 
 A minimal yet professional face comparison web app using **InsightFace** and Python's built-in HTTP server — no Flask or external web framework required.
 
@@ -9,8 +10,7 @@ This app allows users to upload two face images, computes cosine similarity betw
 ## 📸 Interface Preview
 
 🎥 **Watch Demo Tutorial**  
-[![Video Tutorial](https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/blob/f20574f95e5886a3da45a779ab5655e297ae928f/images/videos/Screenshot%202025-07-08%20at%201.30.11%E2%80%AFAM.png)](https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/blob/f20574f95e5886a3da45a779ab5655e297ae928f/images/videos/Screen%20Recording%202025-07-08%20at%2012.58.41%20AM%20(1)%20(1).mp4)
-
+[![Watch the video](https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/blob/main/static/preview.png?raw=true)](https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/raw/main/images/videos/demo.mp4)
 
 ---
 
@@ -30,6 +30,8 @@ face-compare-app/
     ├── style.css         # CSS styling
     └── preview.png       # Interface screenshot
 ```
+
+![Structure Preview](static/preview.png)
 
 ---
 
@@ -52,33 +54,33 @@ Dependencies:
 
 ### 1. Clone the repository
 
-```
-git clone https://github.com/your-username/face-compare-app.git
-cd face-compare-app
+```bash
+git clone https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace.git
+cd Face-Comparison-Web-App-Python-HTML-CSS-InsightFace
 ```
 
 ### 2. Create and activate a virtual environment
 
-```
+```bash
 python -m venv venv
 source venv/bin/activate       # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install all dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 > If using GPU:
-```
+```bash
 pip uninstall onnxruntime
 pip install onnxruntime-gpu
 ```
 
 ### 4. Run the server
 
-```
+```bash
 python app.py
 ```
 
