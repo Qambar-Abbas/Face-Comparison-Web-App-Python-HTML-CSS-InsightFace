@@ -9,7 +9,7 @@ This app allows users to upload two face images, computes cosine similarity betw
 ## 📸 Interface Preview
 
 🎥 **Watch Demo Tutorial**  
-[![Video Tutorial](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
+[![Video Tutorial](https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/blob/f20574f95e5886a3da45a779ab5655e297ae928f/images/videos/Screenshot%202025-07-08%20at%201.30.11%E2%80%AFAM.png)](https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/blob/f20574f95e5886a3da45a779ab5655e297ae928f/images/videos/Screen%20Recording%202025-07-08%20at%2012.58.41%20AM%20(1)%20(1).mp4)
 
 
 ---
