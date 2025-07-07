@@ -26,7 +26,7 @@ face-compare-app/
 └── static/
     ├── index.html        # Web interface
     ├── style.css         # CSS styling
-    └── preview.png       # Interface screenshot
+
 ```
 
 ---
