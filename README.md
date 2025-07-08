@@ -1,4 +1,4 @@
-# 🔍 Face Comparison Web App  
+# Face Comparison Web App  
 (Python, HTML, CSS, InsightFace, Antelopev2)
 
 A minimal yet professional face comparison web app using **InsightFace** and Python's built-in HTTP server — no Flask or external web framework required.
@@ -8,11 +8,14 @@ This app allows users to upload two face images, computes cosine similarity betw
 ---
 
 🎥 **Watch Demo Tutorial**  
-[![Watch the video](https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/blob/5f9dae9a9c85666a4d4a9e82d9cb4417059ade11/assets/screenshot.jpg?raw=true)](https://youtu.be/RqU0jaeowSI)
+<a href="https://youtu.be/RqU0jaeowSI" target="_blank">
+  <img src="https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/blob/5f9dae9a9c85666a4d4a9e82d9cb4417059ade11/assets/screenshot.jpg?raw=true" alt="Watch the video" />
+</a>
+
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 face-compare-app/
@@ -25,13 +28,13 @@ face-compare-app/
 │
 └── static/
     ├── index.html        # Web interface
-    ├── style.css         # CSS styling
+    └── style.css         # CSS styling
 
 ```
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - Python 3.8+
 - pip
@@ -46,7 +49,7 @@ Dependencies:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 
@@ -87,7 +90,7 @@ http://localhost:8080
 
 ---
 
-## 💡 How It Works
+## How It Works
 
 - Upload two images via the form
 - InsightFace extracts face embeddings (512D vectors)
@@ -105,7 +108,7 @@ http://localhost:8080
 
 ---
 
-## 🎨 Features
+## Features
 
 - Responsive card-based UI
 - No JavaScript or Flask required
@@ -115,7 +118,7 @@ http://localhost:8080
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Images are temporarily saved and cleaned after processing
 - Uses antelopev2 model from InsightFace
@@ -123,13 +126,13 @@ http://localhost:8080
 
 ---
 
-## 📄 License
+## License
 
 Licensed under the MIT License.
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 Created by Qambar Abbas  
-Built with ❤️ Python, 💡 InsightFace, and ⚡ HTML/CSS
+Built with Python, InsightFace, HTML/CSS
