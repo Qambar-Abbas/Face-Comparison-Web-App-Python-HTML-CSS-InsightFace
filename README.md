@@ -12,7 +12,6 @@ This app allows users to upload two face images, computes cosine similarity betw
   <img src="https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/blob/5f9dae9a9c85666a4d4a9e82d9cb4417059ade11/assets/screenshot.jpg?raw=true" alt="Watch the video" />
 </a>
 
-
 ---
 
 ## Project Structure
@@ -29,43 +28,43 @@ face-compare-app/
 └── static/
     ├── index.html        # Web interface
     └── style.css         # CSS styling
-
 ```
-
----
-
-## Requirements
-
-- Python 3.8+
-- pip
-
-Dependencies:
-- insightface
-- onnxruntime  *(or onnxruntime-gpu for GPU users)*
-- opencv-python
-- tqdm
-- numpy
-- requests
 
 ---
 
 ## Setup Instructions
 
-### 1. Clone the repository
+### 🔹 Option 1: Quick Start (Pre-built ZIP)
+
+1. Go to the [Releases](https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace/releases) section of the repository.
+2. Download the latest `Face-Comparison.zip` file.
+3. Extract the ZIP anywhere on your system.
+4. Open a terminal (or command prompt) in the extracted folder.
+5. Run the app using:
+```bash
+python app.py
+```
+6. Open your browser and go to: http://localhost:8080
+
+---
+
+### 🔹 Option 2: Manual Setup from Source Code
+
+#### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Qambar-Abbas/Face-Comparison-Web-App-Python-HTML-CSS-InsightFace.git
 cd Face-Comparison-Web-App-Python-HTML-CSS-InsightFace
 ```
 
-### 2. Create and activate a virtual environment
+#### 2. Create and activate a virtual environment
 
 ```bash
 python -m venv venv
 source venv/bin/activate       # On Windows: venv\Scripts\activate
 ```
 
-### 3. Install all dependencies
+#### 3. Install all dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -77,13 +76,13 @@ pip uninstall onnxruntime
 pip install onnxruntime-gpu
 ```
 
-### 4. Run the server
+#### 4. Run the server
 
 ```bash
 python app.py
 ```
 
-### 5. Open in browser
+#### 5. Open in browser
 
 Go to:  
 http://localhost:8080
