@@ -5,6 +5,9 @@ import mimetypes
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from face_utils import get_embedding, cosine_similarity
 
+__version__ = "1.0.0" 
+
+
 # ─── Configuration ───────────────────────────────────────────────────────
 PORT          = 8080
 STATIC_FOLDER = 'static'
@@ -48,7 +51,7 @@ class Handler(BaseHTTPRequestHandler):
 
         # Default: serve index.html
         html = load_static(os.path.join(STATIC_FOLDER, 'index.html')).decode('utf-8')
-        output = render_html(html, {'error_block':'', 'result_block':''})
+        output = render_html(html, {'error_block':'', 'result_block':'', 'version': __version__})
         self.send_response(200)
         self.send_header('Content-Type', 'text/html')
         self.end_headers()
@@ -119,7 +122,7 @@ class Handler(BaseHTTPRequestHandler):
 </div>"""
 
         html = load_static(os.path.join(STATIC_FOLDER, 'index.html')).decode('utf-8')
-        output = render_html(html, {'error_block':'', 'result_block':result_html})
+        output = render_html(html, {'error_block':'', 'result_block':result_html, 'version': __version__})
         self.send_response(200)
         self.send_header('Content-Type','text/html')
         self.end_headers()
@@ -128,7 +131,7 @@ class Handler(BaseHTTPRequestHandler):
     def _error(self, msg: str):
         html = load_static(os.path.join(STATIC_FOLDER, 'index.html')).decode('utf-8')
         err = f'<div class="error">{msg}</div>'
-        output = render_html(html, {'error_block':err, 'result_block':''})
+        output = render_html(html, {'error_block':err, 'result_block':'', 'version': __version__})
         self.send_response(400)
         self.send_header('Content-Type','text/html')
         self.end_headers()
